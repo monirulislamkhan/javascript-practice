@@ -217,8 +217,12 @@ console.log(`Current Time is ${currentHour} ${amPm} : ${minute} : ${second}`); *
 // var theta = ($(window).scrollTop() / 600) % Math.PI;
 // const mathTest = 600 % Math.PI;
 // console.log(mathTest);
-const message = "Hello";
+/* const message = "Hello";
 console.log(message.split());
 for (let rep = 10; rep >= 1; rep = rep - 1) {
   console.log(`Repeate no. is ${rep}`);
 }
+ */
+
+/* console.log(55000 - 55000 / 31);
+console.log(55000 - 53225.8064516129); */
