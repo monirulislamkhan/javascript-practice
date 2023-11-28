@@ -167,7 +167,7 @@ console.log(todayDate.getFullYear()); */
 // alert(window.innerHeight);
 
 // dot vs bracket notation
-const obj = {
+/* const obj = {
   firstName: "Monirul",
   middleName: "Islam",
   lastName: "Khan",
@@ -179,7 +179,7 @@ const obj = {
     return new Date().getFullYear() - age;
     console.log();
   },
-};
+}; */
 
 // "Jonas has 3 friends, and his best friend is called Michael"
 // console.log(`${obj.firstName} has ${obj.friends.length} friends, and his best friend is call ${obj.friends[0]}`);
@@ -221,8 +221,12 @@ console.log(`Current Time is ${currentHour} ${amPm} : ${minute} : ${second}`); *
 console.log(message.split());
 for (let rep = 10; rep >= 1; rep = rep - 1) {
   console.log(`Repeate no. is ${rep}`);
+<<<<<<< HEAD
 }
  */
 
 /* console.log(55000 - 55000 / 31);
 console.log(55000 - 53225.8064516129); */
+=======
+} */
+>>>>>>> 0e9ac41008fc4ab9ad978358c50f939dd3c200ed
