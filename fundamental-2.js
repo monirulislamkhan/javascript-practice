@@ -227,4 +227,3 @@ for (let rep = 10; rep >= 1; rep = rep - 1) {
 
 /* console.log(55000 - 55000 / 31);
 console.log(55000 - 53225.8064516129); */
-console.log("hello");

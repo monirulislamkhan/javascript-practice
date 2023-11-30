@@ -1,7 +1,4 @@
 "use strict";
-// const addnum = 10;
-// console.log(addnum);
-
 const temperatures = [3, -2, -6, -1, "error", 9, 13, 17, 15, 14, 9, 5];
 
 const calcTem = function (temps) {
@@ -16,5 +13,5 @@ const calcTem = function (temps) {
   return max - min;
 };
 
-console.log(temperatures)
+console.log(temperatures);
 calcTem(temperatures);
