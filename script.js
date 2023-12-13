@@ -37,3 +37,18 @@ console.log(`Hello ${myName}`); */
 
 // let age = Number(prompt("Hello, enter your age"));
 // console.log(`Your age is: ${age}`);
+const formControl = document.querySelector(".formValidate");
+
+formControl.addEventListener("click", function (event) {
+  event.preventDefault();
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const country = document.getElementById("country").change;
+  const mobile = document.getElementById("mobile").value;
+  // Error Message
+  // const errorName =
+
+  console.log(country);
+
+  // console.log("work it");
+});
