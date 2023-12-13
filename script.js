@@ -30,5 +30,10 @@ calcTem(temperatures); */
 };
 
 console.log(calcTemNew([10, 30, 3, 10], [109, 12, 3, 91])); */
+/* let myName = "Ilya";
+console.log(`Hello ${1}`);
+console.log(`Hello ${"myName"}`);
+console.log(`Hello ${myName}`); */
 
-function formValidate() {}
+// let age = Number(prompt("Hello, enter your age"));
+// console.log(`Your age is: ${age}`);
