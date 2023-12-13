@@ -30,5 +30,18 @@ calcTem(temperatures); */
 };
 
 console.log(calcTemNew([10, 30, 3, 10], [109, 12, 3, 91])); */
+const formControl = document.querySelector(".formValidate");
 
-function formValidate() {}
+formControl.addEventListener("click", function (event) {
+  event.preventDefault();
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const country = document.getElementById("country").change;
+  const mobile = document.getElementById("mobile").value;
+  // Error Message
+  // const errorName =
+
+  console.log(country);
+
+  // console.log("work it");
+});
