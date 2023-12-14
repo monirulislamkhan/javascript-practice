@@ -39,16 +39,20 @@ console.log(`Hello ${myName}`); */
 // console.log(`Your age is: ${age}`);
 const formControl = document.querySelector(".formValidate");
 
-formControl.addEventListener("click", function (event) {
+formControl.addEventListener("submit", function (event) {
   event.preventDefault();
-  const name = document.getElementById("name").value;
-  const email = document.getElementById("email").value;
-  const country = document.getElementById("country").change;
-  const mobile = document.getElementById("mobile").value;
+  const name = document.getElementById("name");
+  const email = document.getElementById("email");
+  const country = document.getElementById("country");
+  const mobile = document.getElementById("mobile");
+
   // Error Message
-  // const errorName =
+  const errorName = document.getElementById("nameError");
 
-  console.log(country);
-
-  // console.log("work it");
+  if (name.value === "") {
+    errorName.style.display = "block";
+    name.focus();
+  } else {
+    errorName.style.display = "none";
+  }
 });
