@@ -47,12 +47,20 @@ formControl.addEventListener("submit", function (event) {
   const mobile = document.getElementById("mobile");
 
   // Error Message
-  const errorName = document.getElementById("nameError");
+  const nameError = document.getElementById("nameError");
+  const emailError = document.getElementById("emailError");
+  const countryError = document.getElementById("countryError");
+  const mobileError = document.getElementById("mobileError");
 
   if (name.value === "") {
-    errorName.style.display = "block";
+    nameError.style.display = "block";
     name.focus();
   } else {
-    errorName.style.display = "none";
+    nameError.style.display = "none";
+  }
+
+  if (email.value === "") {
+    emailError.style.display = "block";
+    email.focus();
   }
 });
